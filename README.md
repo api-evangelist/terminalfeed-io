@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-TerminalFeed provides a free, real-time data dashboard that aggregates cryptocurrency prices, stock market movers, forex pairs, commodity prices, and global market hours. It also displays news, tech headlines, earthquake activity, disaster alerts, and offers client‑side developer tools such as JSON formatter and JWT decoder. The service is built for developers, traders, and AI agents and requires no signup or tracking.
+TerminalFeed provides a free, real-time dashboard that aggregates cryptocurrency prices, stock market data, news, and various live data streams into a single terminal‑styled web interface. Built for developers, traders, and AI agents, it offers sub‑second updates via WebSockets, no login, no paywalls, and no tracking, delivering a Bloomberg‑like experience without the cost.
 
-**Areas:** Crypto · Stock Market Data · Developer Tools · Real-Time Dashboard · News Aggregation
+**Areas:** Company · Finance · Crypto · Data · Dashboard
 
 ## TerminalFeed on APIs.io
 
@@ -74,8 +74,8 @@ Everything profiled for TerminalFeed is published on APIs.io rather than in this
 
 ### APIs (2)
 
-- [TerminalFeed Developer Hub](https://apis.io/apis/terminalfeed-io/terminalfeed-developer-hub/) — The Developer Hub provides tools, cheatsheets, reference and articles for engineers, with no tracking, signup or popups.
-- [TerminalFeed API](https://apis.io/apis/terminalfeed-io/terminalfeed-io-api/) — TerminalFeed API as documented publicly. Contract generated from the documentation by API Evangelist (2026-11-26); not the provider's own document.
+- [TerminalFeed Developer Hub](https://apis.io/apis/terminalfeed-io/terminalfeed-developer-hub/) — A focused workspace for engineers offering 35 browser‑based tools that run locally with no server round‑trip.
+- [TerminalFeed API](https://apis.io/apis/terminalfeed-io/terminalfeed-io-api/) — TerminalFeed API as documented publicly. Contract generated from the documentation by API Evangelist (2026-11-27); not the provider's own document.
 
 ### Published properties
 
@@ -107,13 +107,18 @@ Authentication, trust centre, and vulnerability disclosure.
 - [TerminalFeed Authentication](https://apis.io/security/terminalfeed-io/terminalfeed-io-authentication/)
 - [TerminalFeed Domain Security](https://apis.io/security/terminalfeed-io/terminalfeed-io-domain-security/)
 
+#### Rate limits (1)
+
+Published request limits.
+
+- [TerminalFeed Rate Limits](https://apis.io/rate-limits/terminalfeed-io/terminalfeed-io-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://terminalfeed.io/)
-- [Getting started](https://terminalfeed.io/blog/mcp-server-quickstart-2026)
-- [Support](https://terminalfeed.io/contact)
+- [Getting started](https://terminalfeed.io/about)
 - [Changelog](https://terminalfeed.io/changelog)
 - [Blog](https://terminalfeed.io/blog)
 - [Terms of service](https://terminalfeed.io/terms)
@@ -122,18 +127,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 43.3** — developing · rubric 0.29.0 · scored 2026-11-26
+**Kin Score 43.4** — developing · rubric 0.28.0 · scored 2026-11-27
 
 | Facet | Score |
 |---|---|
-| Discoverability | 64.3 |
-| Contract quality | 50.5 |
+| Discoverability | 57.1 |
+| Contract quality | 48.7 |
 | Contract governance | 79.1 |
-| Operational transparency | 35.7 |
-| Developer ergonomics | 31.0 |
+| Operational transparency | 52.9 |
+| Developer ergonomics | 26.2 |
 | Access clarity | 17.0 |
 
-**Agent readiness 20.8** — agent-aware
+**Agent readiness 26.6** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -145,8 +150,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Idempotency | — |
 | Error Semantics | — |
 | OpenAPI Examples | — |
-| Rate Limit Signal | — |
-| Event Surface Described | documented (partial credit) |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
 | Agent Skills | — |
 | Well Known Catalog | — |
 | Consent Identity | — |
@@ -159,9 +164,6 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
-| Onboarding Descriptor | — |
-| Dns Aid Index | na |
-| Markdown Negotiation | na |
 
 **Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
 
